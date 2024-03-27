@@ -4,12 +4,13 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    border-top: 2px solid black;
+    border-top: 2px solid rgba(130, 57, 57, 0.114);
 }
 .footer-logo{
     display: flex;
     align-items: center;
     gap: 20px;
+    text-decoration: none;
 }
 .footer-logo p{
     color: #383838;
@@ -30,11 +31,9 @@
     display: flex;
     gap: 20px;
 }
-.footer-icons-container{
-    padding: 10px;
-    padding-bottom: 6px;
-    background: #fbfbfb;
-    border: 1px solid #ebebeb;
+.footer-icon img{
+    height: 50px;
+    width: 50px;
 }
 .footer-copyright{
     display: flex;

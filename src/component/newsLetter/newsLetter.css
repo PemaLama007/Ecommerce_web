@@ -1,14 +1,13 @@
 .newsletter{
-    width: 65%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px 20px;
-    margin: auto;
-    margin-bottom: 30px;
+    padding: 30px 20px;
     background: linear-gradient(-50deg, #dbccdb 30%, #e1ffea22 1000%);
     gap: 30px;
+    margin-bottom: 70px;
 }
 .newsletter h1{
     color: #454545;

@@ -1,49 +1,36 @@
-.hero {
-    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+.hero{
     display: flex;
-    width: 100%;
+    align-items: center;
+    gap: 400px;
+    justify-content: center;
+    padding: 0px 170px;
+    background: rgba(216, 158, 165, 0.288);
+    margin-bottom: 50px;
+
 }
 .hero-left{
-    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    padding-left: 180px;
-    line-height: 1.1;
+    font-size: 20px;
 }
-.hero-left h2 {
-    color: #090909;
-    font-size: 26px;
+.hero-left h2{
+    font-size: 50px;
     font-weight: 600;
+    
 }
-.hero-left p {
-    color: #171717;
+.hero-left p{
+    font-family: "Licorice", cursive;
+    font-weight: 800;
     font-size: 40px;
-    font-weight: 700;
+    color: red;    
 }
-.hero-hand-icon {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-.hero-hand-icon img {
-    width: 105px;
-}
-.hero-latest-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    width: 310px;
-    height: 70px;
-    border-radius: 75px;
-    margin-top: 30px;
-    background: #ff4141;
+.hero-left button {
     color: white;
-    font-size: 22px;
-    font-weight: 500;
+    width: 200px;
+    padding: 10px 40px;
+    background: rgb(30, 23, 23);
 }
-.hero-right > img {
-    height: 400px;
+.hero-right{
+    width: 300px;
 }

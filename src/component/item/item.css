@@ -1,14 +1,17 @@
 .item p {
     text-align: center;
     font-size: 14px;
-    max-width: 200px;
+    max-width: 100%;
     overflow-wrap: normal;
+}
+.item{
+    margin-top: 10px;
 }
 .item-prices {
     justify-content: center;
     align-items: center;
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 .item-price-new{
     color: #374151;
@@ -26,5 +29,5 @@
     transition: 0.6s;
 }
 .item-image{
-    max-width: 250px;
+    width: 100%;
 }
